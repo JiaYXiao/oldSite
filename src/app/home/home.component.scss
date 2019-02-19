@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani:200');
+a {
+  position: absolute;
+  font-family: 'Mukta Vaani', sans-serif;
+  transition: 0.5s;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #ba8f1d;
+  padding-top: 2%;
+}
+a:hover {
+  color: white;
+}
+div {
+opacity: .25;
+background-color: white;
+z-index: 2;
+position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 20%;
+    height: 10%;
+margin: auto;
+transition: 4s;
+}
+#big {
+background-color: #a7887b;
+opacity: .75;
+width: 45%;
+height: 35%;
+z-index: 1;
+}
+h1{position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    width: 20%;
+    height: 10%;
+    margin: auto;
+
+    white-space: nowrap;
+transition: 4s;
+font-size: 10em;
+z-index: 3;
+}
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    font-size: 9em;
+  }
+}
+/*
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+/*
+margin-right: 10%;
+myStyles {
+  width: x px;
+}*/

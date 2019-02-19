@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani:200|Roboto:100|Taviraj:100i');
+
+body {
+  background-color: #2e2e2e;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-family: 'Taviraj', serif;
+  color: #deab23;
+}
+h2, h3, h4 {
+  font-family: 'Mukta Vaani', sans-serif;
+}
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  padding-bottom: 2%;
+  color: #ba8f1d;
+}
+h3 {
+  font-size: 2em;
+  color: #a7887b;
+}
+h4 {
+  font-size: 1.5em;
+  color: #95796e;
+}
+p, li, h5 {
+  font-size: 1em;
+  color: #cccccc;
+ font-family: 'Roboto', sans-serif;
+}
+hr {
+  border-color: white;
+  background-color: white;
+  color: white;
+   margin-top: 20px; margin-bottom: 10px
+}
