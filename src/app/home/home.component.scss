@@ -1,48 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Vaani:200');
 a {
-  position: absolute;
-  font-family: 'Mukta Vaani', sans-serif;
-  transition: 0.5s;
-  font-size: 1.5em;
-  font-style: italic;
   color: #ba8f1d;
+  font-family: 'Taviraj', serif;
+  font-size: 10em;
+  font-style: italic;
   padding-top: 2%;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  width: 20%;
+  height: 10%;
+  margin: auto;
+  transition: 4s;
+  white-space: nowrap;
+  z-index: 3;
 }
 a:hover {
   color: white;
 }
 div {
-opacity: .25;
-background-color: white;
-z-index: 2;
-position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 20%;
-    height: 10%;
-margin: auto;
-transition: 4s;
+  opacity: .25;
+  background-color: white;
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 20%;
+  height: 10%;
+  margin: auto;
+  transition: 4s;
 }
 #big {
-background-color: #a7887b;
-opacity: .75;
-width: 45%;
-height: 35%;
-z-index: 1;
-}
-h1{position: absolute;
-    top: 10%;
-    bottom: 10%;
-    left: 10%;
-    right: 10%;
-    width: 20%;
-    height: 10%;
-    margin: auto;
-
-    white-space: nowrap;
-transition: 4s;
-font-size: 10em;
-z-index: 3;
+  background-color: #a7887b;
+  opacity: .75;
+  width: 45%;
+  height: 35%;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 1300px) {

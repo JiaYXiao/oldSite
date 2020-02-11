@@ -1,3 +1,23 @@
-body {
-    padding-top: 65px;
+#about-me-skills-main, #about-me-contact {
+  float: left;
+  a {
+    padding-right: 15px;
+  }
+}
+
+#about-me-skills-side {
+  float: right;
+}
+
+.skills-disc-main, .skills-desc-side {
+  padding-right: 50px;
+}
+.skills-disc-main {
+  display: inline-block;
+
+}
+
+.skills-desc-side {
+  display: inline-block;
+  float:left;
 }
