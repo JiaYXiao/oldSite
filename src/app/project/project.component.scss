@@ -2,13 +2,12 @@ body {
     padding-top: 65px;
     margin-left: 10.5%;
 }
-h4 {
-  padding-bottom: 0px;
+h3, h4 {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
-#icons {
-  display:flex;
-  list-style:none;
-  padding: 0;
+fa-icon {
+  padding-right: 5px;
 }
 li {
   padding-right: 1em;
@@ -16,9 +15,17 @@ li {
 }
 img {
   padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 15px;
 }
-.image {
-  padding-left: 15px;
+.div-img {
+  display: table;
+  margin: 0 auto;
+}
+.rpg-img {
     height: 350px;
-    padding-bottom: 15px;
+}
+.ellehack-img {
+   max-height: 500px;
+   max-width: 650px;
 }

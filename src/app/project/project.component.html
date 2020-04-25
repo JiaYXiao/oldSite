@@ -1,19 +1,42 @@
 <app-header></app-header>
 <body>
+  <h1 class="text-center">Hackathons I've Been To</h1>
+
+  <div id="">
+    <h3>StarterHacks 2019</h3>
+    <fa-icon [icon]="faUnity" [styles]="{'color': 'grey'}" size="lg"></fa-icon>
+    <!-- <h4>Unity, IFTTT</h4> -->
+    <p>
+      Informal piece I tried to build; a simple program using the LeapPad technology to try and push a virtual button with the movement of a real hand.
+      The program would then use IFTTT to send a message, in this specific case a "hey I don't like you" to my friends that left me in the middle of the event.
+      I kept it simple because this was the first time I was using any of the technologies here. No images cause I lost the project ;-; 
+    </p>
+   
+  </div>
+
+  <div id="">
+    <h3>ElleHacks 2019</h3>
+    <fa-icon [icon]="faAws" [styles]="{'color': 'grey'}" size="lg"></fa-icon>
+    <fa-icon [icon]="faGoogle" [styles]="{'color': 'grey'}" size="lg"></fa-icon>
+    <fa-icon [icon]="faReact" [styles]="{'color': 'grey'}" size="lg"></fa-icon>
+    <!-- <h4>Amazon Alexa, Google Voice Assistant, React</h4> -->
+    <p>
+      Worked with a couple of high school students on an environmental awareness "campaign"; a children's game with simple interactions. It was created
+      using Voiceflow, thus allowing the program to be able to run on both Google assistant and Alexa. The last page would link to a website, which was a
+      simple page including tips on what the user can do to be more environmentally friendly. I created the website and an associating github page, as well as
+      dealing with linking the main program to Amazon and Google's services. 
+    </p>
+    <div class="div-img">
+      <img class="ellehack-img" src="../../assets/H_0_0.gif">
+      <img class="ellehack-img" src="../../assets/H_0_1.gif">
+    </div>
+  </div>
+
   <h1 class="text-center">Personal Side Projects</h1>
   <div id="proj2">
     <h3>Website</h3>
     <h4>Jan 2019</h4>
-
-    <ul id="icons" class="unstyled">
-      <li>
-    <img src="../../assets/mdb-logolarge.png" width="84px">
-    </li>
-
-    <li>
-      <i class="fab fa-angular fa-2x grey-text"></i>
-      </li>
-    </ul>
+    <fa-icon [icon]="faAngular" [styles]="{'color': 'grey'}" size="lg"></fa-icon>
 
     <p>I first started this project as practice for my first co-op, the initial job title being 'Web
       Developer'. Turns out that the job wasn't very front-end related, but I continued with it because
@@ -23,31 +46,30 @@
       I do in the future. I wanted this website to act as a medium for people to easily browse through what
       I had to offer, but it ended up taking more time than I thought because I had little experience in
       web development, so a lot of things were learned on the spot. That and it was hard to resist
-      trying out dozens of stylizing options. Oops.</p>
+      trying out dozens of stylizing options.</p>
   </div>
 
   <div id="proj1">
-    <h3>Game(?)</h3>
-    <h4>Long long ago</h4>
+    <h3>RPG Pixel Game</h3>
+    <h4>2017</h4>
+    <fa-icon [icon]="faJava" [styles]="{'color': 'grey'}" size="lg"></fa-icon>
+    <p>Final grade 12 computer science project with another partner. Comprised of most of the things I learned w
+      Background images and characters taken from Wadanohara
+    because I can't draw.</p>
 
-    <ul id="icons" class="unstyled">
-      <li>
-        <i class="fab fa-java fa-2x grey-text"></i>
-    </li>
-    </ul>
-
-
-    <p>That was fun. Java swing was not, however. Background images and characters taken from Wadanohara
-    because I can't draw for my life.</p>
-
-    <img class="image" src="../../assets/P_0_0.png"> <img class="image" src="../../assets/P_0_1.png">
+    <div class="div-img">
+      <img class="rpg-img" src="../../assets/P_0_0.png"> 
+      <img class="rpg-img" src="../../assets/P_0_1.png">
+    </div>
+    
   </div>
 
 
   <hr>
 
-  <h1 class="text-center">Ideas</h1>
+  <h1 class="text-center">Cool Ideas</h1>
   <ul>
+    <!--
     <li>
       Alexa bot -
     </li>
@@ -55,10 +77,14 @@
     <li>
       Arduino (or some other microcontroller) -
     </li>
-
+-->
     <li>
       Stripping the RFID from a presto card and implementing it into something more accessable
-      <br> <a href="https://www.ringtheory.com" target="_blank">Idea stolen from here</a>  </li>
+      <br> <a href="https://www.ringtheory.com" target="_blank">Idea from here</a>  
+    </li>
+    <li>
+      homemade taiko machine
+    </li>
 
   </ul>
 </body>
