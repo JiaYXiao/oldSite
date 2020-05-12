@@ -2,7 +2,6 @@
 a {
   color: #ba8f1d;
   font-family: 'Taviraj', serif;
-  font-size: 10em;
   font-style: italic;
   padding-top: 2%;
   position: absolute;
@@ -19,6 +18,15 @@ a {
 }
 a:hover {
   color: white;
+}
+.main {
+  font-size: 3em;
+}
+.sub { 
+  font-size: 5em;
+  :hover {
+    color: #ba8f1d;
+  }
 }
 div {
   opacity: .25;
@@ -45,20 +53,3 @@ div {
     font-size: 9em;
   }
 }
-/*
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 5em;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 3em;
-  }
-}
-/*
-margin-right: 10%;
-myStyles {
-  width: x px;
-}*/

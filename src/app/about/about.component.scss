@@ -1,26 +1,12 @@
-#about-me-skills-main, #about-me-contact {
+.skill { 
   float: left;
-  a {
-    padding-right: 15px;
-  }
+  padding-right: 15px;
 }
 
-#about-me-skills-side {
-  float: right;
+.skillType, .contact { 
+  clear: both;
+  display: block;
+   a { 
+     padding-right: 10px;
+   }
 }
-
-.skills-disc-main, .skills-desc-side {
-  padding-right: 50px;
-}
-.skills-disc-main {
-  display: inline-block;
-}
-
-.skills-desc-side {
-  float:left;
-}
-
-// #exp-content {
-//   display: block;
-//   float: none;
-// }

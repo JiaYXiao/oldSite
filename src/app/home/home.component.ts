@@ -28,6 +28,7 @@ import { transition, trigger, state, style, animate } from '@angular/animations'
 export class HomeComponent implements OnInit {
   x;
   y;
+  sub_y = this.y + 600;
   xB = 500;
   yB = 300;
   xS = 400;
@@ -37,6 +38,7 @@ export class HomeComponent implements OnInit {
   @HostListener('document:mousemove', ['$event']) onMouseMove(e) {
     this.x = e.clientX/innerWidth * 100 - 60;
     this.y = e.clientY/innerHeight * 100 - 75;
+    this.sub_y = this.y + 50;
     this.xS = (e.clientX + innerWidth/4 )* 0.5 ;
     this.yS =(e.clientY + innerHeight/4 )* 0.5 ;
     this.xB = (e.clientX * 0.1) + innerWidth/4 ;
@@ -48,8 +50,8 @@ export class HomeComponent implements OnInit {
       this.y = 0;
     }
 
-    console.log(this.x, this.y);
-    console.log('     ', innerWidth);
+    // console.log(this.x, this.y);
+    // console.log('     ', innerWidth);
   }
 
 

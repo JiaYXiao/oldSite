@@ -5,72 +5,34 @@
   <p>
     My name's Tasha! Hi. Here you'll find everything I've done,
     where I can explain my experience and thoughts in more detail than what I can fit on a one page resume. Not sure what's in store
-    for the future of this website, but I'm hoping to spice it up sometime.
+    for the future of this website, but I'd want to spice it up given the chance.
   </p>
   <br>
-  <div id="exp-contact">
-  <div id="about-me-skills-main">
-      <p>Experience:</p>
-      <div class="skills-disc-main">
-        <p>Software:</p>
-        <ul>
-          <li>Java</li>
-          <li>HTML/CSS/JS</li>
-          <li>C++</li>
-        </ul>
-      </div>
-      <div class="skills-disc-main">
-        <p>Hardware:</p>
-        <ul>
-          <li>Arduino</li>
-          <li>PBasic</li>
-          <li>VHDL</li>
-          <li>Raspberry Pi</li>
-        </ul>
-      </div>
-    </div>
-    <div id="about-me-skills-side">
-      <p>Extras:</p>
-      <div id="skills-desc-etc">
-        <div class="skills-desc-side">
-          <p>Frameworks:</p>
-          <ul>
-            <li>Angular</li>
-            <li>Springboot</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div class="skills-desc-side">
-          <p>Various Programs:</p>
-          <ul>
-            <li>Jira</li>
-            <li>Confluence</li>
-          </ul>
-        </div>
-        <div class="skills-desc-side">
-          <p>Testing/Mock tools:</p>
-          <ul>
-            <li>Mockito</li>
-            <li>Jest</li>
-          </ul>
-          </div>
-          <div class="skills-desc-side">
-            <p>Misc:</p>
-            <ul>
-              <li>Node.js</li>
-            </ul>
-        </div>
-      </div>
-  </div>
-  <br>
-  <div id="about-me-contact">
-    <br>
-    <p>Need me? Look me up here:</p>
-      <a href="https://github.com/JiaYXiao" target="_blank"><i class="fab fa-github fa-2x grey-text"></i></a>
-      <a href="https://www.linkedin.com/in/tasha-xiao-851b7616a" target="_blank"><i class="fab fa-linkedin-in fa-2x grey-text"></i></a>
-      <a href="mailto:tasha.xiao@gmail.com" target="_top"><i class="fas fa-envelope fa-2x grey-text"></i></a>
-
-
+ <p> Experience: </p>
+<div class='skillType'>
+  <div class='skill' *ngFor='let skillType of baseExpList; let i = index'>
+   <p> {{skillType[0]}} </p>
+    <ul>
+      <li *ngFor='let skill of skillType | slice:1'>
+        {{ skill }}
+      </li>
+    </ul>
   </div>
 </div>
+<div class='skillType'> 
+  <div class='skill' *ngFor='let skillType of extraExpList; let i = index'>
+    <p> {{skillType[0]}} </p>
+     <ul>
+       <li *ngFor='let skill of skillType | slice:1'>
+         {{ skill }}
+       </li>
+     </ul>
+   </div>
+  </div>
+  <div class='contact'>
+    <p>Find me here:</p>
+    <a href="https://github.com/JiaYXiao" target="_blank"><i class="fab fa-github fa-2x grey-text"></i></a>
+    <a href="https://www.linkedin.com/in/tasha-xiao-851b7616a" target="_blank"><i class="fab fa-linkedin-in fa-2x grey-text"></i></a>
+    <a href="mailto:tasha.xiao@gmail.com" target="_top"><i class="fas fa-envelope fa-2x grey-text"></i></a>
+  </div>
 </div>
