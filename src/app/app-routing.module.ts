@@ -7,9 +7,9 @@ import { ProjectComponent } from './project/project.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'jobs', component: JobComponent },//localhost4200:/jobs
-  { path: 'about', component: AboutComponent },
-  { path: 'projects', component: ProjectComponent },
+  { path: 'site/jobs', component: JobComponent },//localhost4200:/jobs
+  { path: 'site/about', component: AboutComponent },
+  { path: 'site/projects', component: ProjectComponent },
   { path: '', component: HomeComponent }
   //{ path: '', component: MainPageComponent }
 ];
